@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="Proyecto">
+	 	<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+		 <jta-data-source>java:/test2</jta-data-source>
+		<class>model.Tela</class>
+		<class>model.Vestimenta</class>
+		<class>model.Compra</class>
+		<class>model.Venta</class>
+	</persistence-unit>
+</persistence>
